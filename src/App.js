@@ -1,8 +1,6 @@
-
 import './App.css';
 import NavBar from './NavBar';
 import Error404 from './Error404';
-// import HeroSection from './HeroSection';
 import Header from './Header';
 import Footer from './Footer';
 import {BrowserRouter,Routes,Route} from "react-router-dom"

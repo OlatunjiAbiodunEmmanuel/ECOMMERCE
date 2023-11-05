@@ -4,10 +4,6 @@ import { useEffect } from 'react'
 import img1 from './gallery/banner-illustration-e-commerce-icon-set-e-commerce-background-icon-illustration-banner-209696030.webp'
 import img2 from './gallery/shopping-cart-card-icon-discounts_116441-26066.avif'
 import img3 from './gallery/why-ecommerce-need-mobile-apps.jpg'
-import computer from './gallery/computer-solid.svg'
-import electronics from './gallery/radio-solid.svg'
-import fashion from './gallery/shirt-solid.svg'
-import kids from './gallery/child-solid.svg'
 
 const Header = () => {
     const [user, setUser] = useState([])
@@ -30,13 +26,6 @@ useEffect(() => {
     }
   }, [])
 
-// function searching() {
-
-// }
-
-
-
-
 let style={
     // backgroundColor:'red',
     marginBottom:'5px',
@@ -50,7 +39,6 @@ const pages=[]
 for (let i = 1; i <= user.length/userPerPage; i++) {
   pages.push(i);
 }
-//change pages
 const changePages=(event)=>{
   setCurrentPage(event.target.innerHTML)
   if (event.target.innerHTML==currentPage){
@@ -67,8 +55,6 @@ useEffect(() => {
       .then(data=>setUser(data.products))
     }
   }, [])
-
-
 
   const find = ()=>{
     let apple = currentUsers.filter((item)=>{
@@ -181,9 +167,10 @@ useEffect(() => {
     <div className="input-group mb-5 sec container-sm p-0 border-0">
 
 
-			{/* <input type="search" className="form-control" style={{width:"50%"}} placeholder="Search" id='search' 
-      onChange={(e) => {setUser(e.target.value);console.log(user)}}/> */}
-      {/* <button className="border-0" onClick={() => {searching();}} style={{marginLeft:"5px"}}>search</button> */}
+			<input type="search" className="form-control" style={{width:"50%"}} placeholder="Search" id='search' 
+      onChange={(e) => {setUser(e.target.value);console.log(user)}}/>
+
+      {/* <button className="border-0" onClick={() => {search();}} style={{marginLeft:"5px"}}>search</button> */}
 
 
 			<select className="form-select">
