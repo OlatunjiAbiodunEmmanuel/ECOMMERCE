@@ -9,8 +9,8 @@ const NavBar = () => {
   return (
     <div className=''>
         <div className='d-flex align-items-center justify-content-between bg-dark p-2 fixed-top'>
-        <a class="navbar-brand ms-5 d-none d-lg-inline" href="#" style={{fontWeight:'bold',fontSize:'20px'}}><img src={logo} 
-        style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />
+        <a class="navbar-brand ms-5 d-none d-lg-inline" style={{fontWeight:'bold',fontSize:'20px',cursor:"pointer"}}><img src={logo} 
+        style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} onClick={()=>{window.location.reload()}}/>
         <span class="waviy text-light">            
             <span>q</span>
             <span>q</span>

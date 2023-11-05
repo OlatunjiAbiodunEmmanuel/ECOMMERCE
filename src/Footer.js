@@ -54,10 +54,10 @@ const Footer = () => {
         </div>
 
         <div className='text-center mb-3 mt-4'>
-          <span>For Professionals</span>
-          <span>Carrers</span>
-          <span>Contact Us</span>
-          <span>Company Info</span>
+          <span className='pe-2'>For Professionals</span>
+          <span className='pe-2'>Carrers</span>
+          <span className='pe-2'>Contact Us</span>
+          <span className='pe-2'>Company Info</span>
           <span>News Letter</span>
         </div>
 

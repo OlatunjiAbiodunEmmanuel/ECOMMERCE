@@ -13,16 +13,11 @@ function App() {
     <div className="App bg-secondary">
       <BrowserRouter>
     <NavBar/>
-    {/* <HeroSection/> */}
     <Header/>
-
     <Routes>
     <Route path='/' element={<NavBar/>}/>
-    {/* <Route path='/Contact' element={<Contact/>}/> */}
-    {/* <Route path='/AMBASSADORS & LEMO CLUB' element={<Ambasado/>}/> */}
     <Route path='*' element={<Error404/>}/>
     </Routes>
-    
       <Footer/>
     </BrowserRouter>
     </div>
