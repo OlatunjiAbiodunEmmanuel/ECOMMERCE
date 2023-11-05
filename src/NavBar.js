@@ -9,7 +9,8 @@ const NavBar = () => {
   return (
     <div className=''>
         <div className='d-flex align-items-center justify-content-between bg-dark p-2 fixed-top'>
-        <a class="navbar-brand ms-5 d-none d-lg-inline" href="#" style={{fontWeight:'bold',fontSize:'20px'}}><img src={logo} style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />
+        <a class="navbar-brand ms-5 d-none d-lg-inline" href="#" style={{fontWeight:'bold',fontSize:'20px'}}><img src={logo} 
+        style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />
         <span class="waviy text-light">            
             <span>q</span>
             <span>q</span>
@@ -27,10 +28,10 @@ const NavBar = () => {
     <section className='d-none d-md-flex align-items-center justify-content-around pe-5 '>
 
     <button type="button" class="btn btn-outline-danger me-3"><Link to ='/'style={linkStyle} className='text-light'>Home</Link></button>
-    <button type="button" class="btn btn-outline-danger me-3"><Link to ='/About us'style={linkStyle} className='text-light'>Today's Deal</Link></button>
-    <button type="button" class="btn btn-outline-danger me-3"><Link to ='/Student'style={linkStyle} className='text-light'>Customer Service</Link></button>
-    <button type="button" class="btn btn-outline-danger me-3"><Link to ='/Contact'style={linkStyle} className='text-light'>New Releases</Link></button>
-    <button type="button" class="btn btn-outline-danger me-3"><Link to ='/Adminssion Information'style={linkStyle} className='text-light'>Gifts Idea</Link></button>
+    <button type="button" class="btn btn-outline-danger me-3"><Link to ="/today'sDeal"style={linkStyle} className='text-light'>Today's Deal</Link></button>
+    <button type="button" class="btn btn-outline-danger me-3"><Link to ="/customerService"style={linkStyle} className='text-light'>Customer Service</Link></button>
+    <button type="button" class="btn btn-outline-danger me-3"><Link to ="/newRelease"style={linkStyle} className='text-light'>New Releases</Link></button>
+    <button type="button" class="btn btn-outline-danger me-3"><Link to ="/giftsIdea"style={linkStyle} className='text-light'>Gifts Idea</Link></button>
 
     </section>
 
@@ -38,14 +39,14 @@ const NavBar = () => {
             
             <div class="container">
               
-            {/* <a class="navbar-brand" href="#" style={{fontWeight:'bolder'}}><img src={logo} style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />CALVARY LOVE ACADEMY</a> */}
+            <a class="navbar-brand" href="#" style={{fontWeight:'bolder'}}><img src={logo} style={{width:'60px', borderRadius:'50%',marginRight:'5%'}} />QQQQQQQQQQQQQQQ</a>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CALVARY LOVE ACADEMY</h5>
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">QQQQQQQQQQQQQQQ</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">

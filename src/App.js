@@ -2,8 +2,9 @@
 import './App.css';
 import NavBar from './NavBar';
 import Error404 from './Error404';
-import HeroSection from './HeroSection';
+// import HeroSection from './HeroSection';
 import Header from './Header';
+import Footer from './Footer';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import { Link } from 'react-router-dom'
 
@@ -12,7 +13,7 @@ function App() {
     <div className="App bg-secondary">
       <BrowserRouter>
     <NavBar/>
-    <HeroSection/>
+    {/* <HeroSection/> */}
     <Header/>
 
     <Routes>
@@ -22,7 +23,7 @@ function App() {
     <Route path='*' element={<Error404/>}/>
     </Routes>
     
-      {/* <Footer/> */}
+      <Footer/>
     </BrowserRouter>
     </div>
   );
